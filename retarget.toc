@@ -2,5 +2,5 @@
 ## Author: shirsig
 ## Modified by: Meow
 ## Title: retarget
-## Notes: Retargets Hunters after Feign Death and Rogues after Stealth
+## Notes: Retargets Hunters after Feign Death
 retarget.lua
