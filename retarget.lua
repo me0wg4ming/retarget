@@ -2,9 +2,7 @@ local function feigning()
 	local i, buff = 1, nil
 	repeat
 		buff = UnitBuff('target', i)
-		if buff == [[Interface\Icons\Ability_Rogue_FeignDeath]] 
-		or buff == [[Interface\Icons\Ability_Stealth]] 
-		or buff == [[Interface\Icons\Ability_Ambush]] then
+		if buff == [[Interface\Icons\Ability_Rogue_FeignDeath]] then
 			return true
 		end
 		i = i + 1
